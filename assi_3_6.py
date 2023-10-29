@@ -1,1 +1,0 @@
-print("Hexadecimal equivalent of 22 is ",hex(22))

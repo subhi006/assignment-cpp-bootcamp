@@ -1,1 +1,0 @@
-print("binary equivalent of 22 is ",bin(22))

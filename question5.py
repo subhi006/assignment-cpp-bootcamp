@@ -1,12 +1,7 @@
-"""Write a program which takes a number from user. Print Saurabh Shukla if the number
-is even, print Prateek Jain if the number is negative odd number and print Aditya
-Choudhary if number is positive odd number."""
+"""Write a python script which takes a three digit number from the user and displays
+only its first digit."""
 
-n=int(input("Enter a number:"))
-match n:
-    case n if(n%2==0):
-     print("Saurabh Shukla")
-    case n if(n>0):
-     print("Aditya Choudhary")
-    case _:
-     print("Prateek Jain")
+x=int(input("Enter a no.:"))
+while(x>=10):
+    x=int(x/10)
+print(x)

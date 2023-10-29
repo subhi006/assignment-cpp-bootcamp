@@ -1,8 +1,4 @@
-"""Write a python program to check whether a given number is positive, negative or
-zero using match case statement"""
-n=int(input("Enter a number:"))
-match n:
-    case 0: print("Zero")
-    case n if n > 0: print("Positive")
-    case _ : print("Negative")
-    
+"""Write a python script which takes a three digit number from the user and displays
+only its last digit."""
+x=int(input("Enter a number:"))
+print(x%10)

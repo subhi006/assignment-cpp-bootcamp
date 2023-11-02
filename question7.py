@@ -1,4 +1,8 @@
-"""Write a python script which takes a three digit number from the user and displays
-only its last digit."""
-x=int(input("Enter a number:"))
-print(x%10)
+#Write a python script to check whether a given number is positive, negative or zero.
+n=int(input("Enter a no."))
+if n==0:
+    print("Zero")
+elif(n>0):
+    print("positive")
+else:
+    print("negative")

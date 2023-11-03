@@ -1,7 +1,2 @@
-"""Write a python script which takes a three digit number from the user and displays
-only its middle digit."""
-
-x=int(input("Enter three digit number:"))
-x=int(x/10)
-x=x%10
-print(x)
+#Write a python script to check whether a given number is a three digit number or not.
+print("yes three digit" if(99<(int(input("enter a no.")))<1000) else "not a three digit no.")

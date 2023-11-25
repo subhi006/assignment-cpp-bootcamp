@@ -1,10 +1,2 @@
-"""Write a python program to check whether a given string is a multiword string or single
-word string using match case statement"""
-
-n=(input("Enter a string:"))
-n=n.strip()  #strip()  function remove stating and ending space of string
-match n:
-    case n if " " in n:
-        print("its munlty word string")
-    case _:
-        print("its a single word string")
+#Write a python script to check whether a given number is a three digit number or not.
+print("yes three digit" if(99<(int(input("enter a no.")))<1000) else "not a three digit no.")
